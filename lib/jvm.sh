@@ -5,9 +5,9 @@ STACK="${STACK:-"heroku-24"}"
 if [ "${STACK}" == "heroku-24" ]; then
   # This should always be the latest OpenJDK LTS major version
   # Next LTS will be OpenJDK 25 with a planned release date of 2025-09-16
-  DEFAULT_JDK_VERSION="21"
+  DEFAULT_JDK_VERSION="11"
 else
-  DEFAULT_JDK_VERSION="1.8"
+  DEFAULT_JDK_VERSION="11"
 fi
 
 DEFAULT_JDK_1_8_VERSION="1.8.0_432"
